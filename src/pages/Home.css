@@ -1,0 +1,311 @@
+.home-page {
+  padding-bottom: 70px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #fff;
+}
+
+.header-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: #f5f5f5;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.icon-btn.notification {
+  background: #fff3cd;
+  color: #d4a017;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+}
+
+.logo-icon {
+  background: #333;
+  color: #d4a017;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Banner */
+.banner-section {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.promo-banner {
+  background: linear-gradient(135deg, #f7d060, #d4a017);
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  min-height: 140px;
+}
+
+.banner-content h2 {
+  color: #333;
+  font-size: 20px;
+  margin: 0 0 8px;
+  text-align: right;
+}
+
+.banner-discount {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.discount-number {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.discount-text {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.banner-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  font-family: inherit;
+}
+
+.banner-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(255,255,255,0.9);
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Wallet */
+.wallet-section {
+  background: #333;
+  margin: 0 16px 16px;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.wallet-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.wallet-header h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.wallet-logo {
+  background: #d4a017;
+  color: #333;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.wallet-features {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.wallet-btn {
+  background: #d4a017;
+  color: #333;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  font-family: inherit;
+}
+
+/* Stores */
+.stores-section {
+  padding: 0 16px;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.see-more-btn {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.stores-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+
+/* Game Banner */
+.game-banner {
+  margin: 0 16px 20px;
+  background: linear-gradient(135deg, #2c3e50, #1a252f);
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: center;
+  color: white;
+}
+
+.game-banner h3 {
+  margin: 0 0 4px;
+  font-size: 22px;
+  color: #f7d060;
+}
+
+.game-banner p {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.prize-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.prize-number {
+  font-size: 36px;
+  font-weight: 900;
+  color: #f7d060;
+}
+
+.game-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Shipping Notice */
+.shipping-notice {
+  margin: 0 16px 20px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: center;
+}
+
+.notice-icon {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.shipping-notice h4 {
+  margin: 0 0 12px;
+  font-size: 18px;
+  color: #333;
+}
+
+.shipping-notice p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 0 12px;
+  background: #fff9e6;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.notice-en {
+  background: transparent !important;
+  color: #777 !important;
+  font-size: 13px !important;
+}
+
+.order-btn {
+  background: #d4a017;
+  color: #333;
+  border: none;
+  padding: 10px 32px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+}

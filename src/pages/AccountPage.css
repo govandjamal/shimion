@@ -1,0 +1,214 @@
+.account-page {
+  padding-bottom: 80px;
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.account-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.account-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Profile Card */
+.profile-card {
+  margin: 16px;
+  background: linear-gradient(135deg, #333, #1a1a1a);
+  border-radius: 20px;
+  padding: 24px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+.profile-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #d4a017;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  flex-shrink: 0;
+}
+
+.profile-info {
+  flex: 1;
+  text-align: right;
+}
+
+.profile-info h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.profile-city {
+  margin-top: 2px !important;
+}
+
+.edit-profile-btn {
+  background: rgba(212, 160, 23, 0.2);
+  color: #d4a017;
+  border: 1px solid #d4a017;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: inherit;
+}
+
+/* Edit Form */
+.profile-edit-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-edit-form input {
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  font-size: 14px;
+  font-family: inherit;
+  text-align: right;
+  outline: none;
+}
+
+.profile-edit-form input:focus {
+  border-color: #d4a017;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.save-btn {
+  flex: 1;
+  background: #d4a017;
+  color: #333;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.cancel-btn {
+  flex: 1;
+  background: transparent;
+  color: #aaa;
+  border: 1px solid #555;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Menu */
+.account-menu {
+  margin: 0 16px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  border: none;
+  background: none;
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #f5f5f5;
+  font-family: inherit;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #fff9e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d4a017;
+  font-size: 16px;
+}
+
+.menu-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.menu-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.menu-desc {
+  font-size: 12px;
+  color: #999;
+}
+
+.menu-arrow {
+  font-size: 20px;
+  color: #ccc;
+}
+
+/* Logout */
+.logout-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 16px;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid #e74c3c;
+  border-radius: 12px;
+  color: #e74c3c;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  width: calc(100% - 32px);
+  font-family: inherit;
+}
